@@ -14,7 +14,11 @@ class About extends Component {
 
   componentDidMount() {
     //console.log(clanId);
-    fetch(serverURL +  "/clan?clanId=" + clanId)
+    fetch(serverURL +  "/clan?clanId=" + clanId, { 
+   method: 'get', 
+   headers: new Headers({
+     "Origin": null
+   })})
       .then(response => response.json())
       .then((dataClanAbout) => {
         this.setState({ clanAbout: JSON.parse(dataClanAbout) })

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/rozha_ui/static/css/main.abd25b8d.chunk.css",
+    "main.js": "/rozha_ui/static/js/main.0e4bbecb.chunk.js",
+    "main.js.map": "/rozha_ui/static/js/main.0e4bbecb.chunk.js.map",
+    "runtime-main.js": "/rozha_ui/static/js/runtime-main.c460a5cc.js",
+    "runtime-main.js.map": "/rozha_ui/static/js/runtime-main.c460a5cc.js.map",
+    "static/css/2.e8d0343d.chunk.css": "/rozha_ui/static/css/2.e8d0343d.chunk.css",
+    "static/js/2.b104cb3f.chunk.js": "/rozha_ui/static/js/2.b104cb3f.chunk.js",
+    "static/js/2.b104cb3f.chunk.js.map": "/rozha_ui/static/js/2.b104cb3f.chunk.js.map",
+    "index.html": "/rozha_ui/index.html",
+    "precache-manifest.6aeb8c081aa1ad4b7f9b36bb5f04e258.js": "/rozha_ui/precache-manifest.6aeb8c081aa1ad4b7f9b36bb5f04e258.js",
+    "service-worker.js": "/rozha_ui/service-worker.js",
+    "static/css/2.e8d0343d.chunk.css.map": "/rozha_ui/static/css/2.e8d0343d.chunk.css.map",
+    "static/css/main.abd25b8d.chunk.css.map": "/rozha_ui/static/css/main.abd25b8d.chunk.css.map",
+    "static/js/2.b104cb3f.chunk.js.LICENSE.txt": "/rozha_ui/static/js/2.b104cb3f.chunk.js.LICENSE.txt",
+    "static/media/pe-icon-7-stroke.css": "/rozha_ui/static/media/Pe-icon-7-stroke.c45f7de0.svg",
+    "static/media/bootstrap.min.css": "/rozha_ui/static/media/glyphicons-halflings-regular.fa277232.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c460a5cc.js",
+    "static/css/2.e8d0343d.chunk.css",
+    "static/js/2.b104cb3f.chunk.js",
+    "static/css/main.abd25b8d.chunk.css",
+    "static/js/main.0e4bbecb.chunk.js"
+  ]
+}

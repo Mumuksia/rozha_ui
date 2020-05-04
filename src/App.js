@@ -4,6 +4,7 @@ import './App.css';
 import "./assets/sass/light-bootstrap-dashboard-react.scss?v=1.3.0";
 import ClanList from "./components/ClanList.jsx";
 import About from "./components/About.jsx";
+import LeagueGroup from "./components/LeagueGroup.jsx";
 //import { Navbar } from "react-bootstrap";
 import {
   BrowserRouter as Router,
@@ -26,6 +27,9 @@ function App() {
           <li>
             <Link to="/war">Clan War</Link>
           </li>
+          <li>
+            <Link to="/leaguegroup">Clan League Group</Link>
+          </li>
         </ul>
 
         <hr />
@@ -46,6 +50,9 @@ function App() {
           </Route>
           <Route path="/players">
             <ClanList />
+          </Route>
+          <Route path="/leaguegroup">
+            <LeagueGroup />
           </Route>
         </Switch>
       </div>

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rozha_ui/precache-manifest.b1a69ed52874a8662e8ae1444a19152d.js"
+  "/rozha_ui/precache-manifest.4ae0ded30b356a51c03f9c3432fea37e.js"
 );
 
 self.addEventListener('message', (event) => {

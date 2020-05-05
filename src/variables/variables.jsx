@@ -5,9 +5,15 @@ const clanListTitles = ["ClanRank", "Donations", "Donations received", "Name", "
 
 const clanLeagueTitles = ["Name", "ClanLevel", "Tag"];
 
+const clanLeagueWarTitles = ["Tag", "Name", "TownhallLevel", "MapPosition"];
+
+const days = ["Day1", "День2", "Dag3", "Dzien4", "Tag5", "Giorno6", "Dia7"];
+
 module.exports = {
   serverURL,
   clanListTitles,
   clanId,
-  clanLeagueTitles
+  clanLeagueTitles,
+  clanLeagueWarTitles,
+  days
 };

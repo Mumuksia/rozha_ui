@@ -66,3 +66,23 @@ li a:hover {
   background-color: #111;
 }
 
+#wrap {
+    width:100%;
+}
+#wrap:after {
+    /* Prevent wrapper from shrinking height, 
+    see http://www.positioniseverything.net/easyclearing.html */
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#wrap .container {
+    float: left;
+    width:50%;
+}
+
+div.inline { float:left; }
+.clearBoth { clear:both; }
+

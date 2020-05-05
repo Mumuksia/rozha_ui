@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 
 import Card from "./Card.jsx";
-import { serverURL, clanId, clanLeagueTitles } from "../variables/variables.jsx";
+import LeagueRounds from "./LeagueRounds.jsx";
+import { serverURL, clanId, clanLeagueTitles, days } from "../variables/variables.jsx";
 
 class LeagueGroup extends Component {
 
@@ -11,17 +12,17 @@ class LeagueGroup extends Component {
     this.state = {
       leagueGroupData: {},
       leagueWar: [],
-      expandedRow: null
+      expandedRow: null,
+      isDay1Visible: false
     };
   }
 
   componentDidMount() {
-    console.log(clanId);
+
     fetch(serverURL +  "/clan/league?clanId=" + clanId)
       .then(response => response.json())
       .then((dataLeague) => {
-        this.setState({ leagueGroupData: JSON.parse(dataLeague) })
-        console.log(dataLeague)
+        this.setState({ leagueGroupData: JSON.parse(dataLeague) })      
       })
       //.then(dataClanUsers => this.setState({ clanUsers: dataClanUsers }))
       .catch(console.log);
@@ -65,13 +66,11 @@ class LeagueGroup extends Component {
 
     let allItemRows = [];
 
-    console.log(this.state.leagueGroupData);
-
         this.state.leagueGroupData.clans.forEach(item => {
             const perItemRows = this.renderItem(item);
             allItemRows = allItemRows.concat(perItemRows);
         });
-    
+
     return (
       <div className="content">
         <Container fluid>

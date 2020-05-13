@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/rozha_ui/static/css/main.6c3ada67.chunk.css",
-    "main.js": "/rozha_ui/static/js/main.28ff7d45.chunk.js",
-    "main.js.map": "/rozha_ui/static/js/main.28ff7d45.chunk.js.map",
+    "main.css": "/rozha_ui/static/css/main.6f2d6243.chunk.css",
+    "main.js": "/rozha_ui/static/js/main.cf95fc47.chunk.js",
+    "main.js.map": "/rozha_ui/static/js/main.cf95fc47.chunk.js.map",
     "runtime-main.js": "/rozha_ui/static/js/runtime-main.c460a5cc.js",
     "runtime-main.js.map": "/rozha_ui/static/js/runtime-main.c460a5cc.js.map",
     "static/css/2.e8d0343d.chunk.css": "/rozha_ui/static/css/2.e8d0343d.chunk.css",
-    "static/js/2.e1505f13.chunk.js": "/rozha_ui/static/js/2.e1505f13.chunk.js",
-    "static/js/2.e1505f13.chunk.js.map": "/rozha_ui/static/js/2.e1505f13.chunk.js.map",
+    "static/js/2.09c01f5d.chunk.js": "/rozha_ui/static/js/2.09c01f5d.chunk.js",
+    "static/js/2.09c01f5d.chunk.js.map": "/rozha_ui/static/js/2.09c01f5d.chunk.js.map",
     "index.html": "/rozha_ui/index.html",
-    "precache-manifest.6b70fea184dbf9d5ee700db2c1fde307.js": "/rozha_ui/precache-manifest.6b70fea184dbf9d5ee700db2c1fde307.js",
+    "precache-manifest.c4b88c24395a8d966136047741736747.js": "/rozha_ui/precache-manifest.c4b88c24395a8d966136047741736747.js",
     "service-worker.js": "/rozha_ui/service-worker.js",
     "static/css/2.e8d0343d.chunk.css.map": "/rozha_ui/static/css/2.e8d0343d.chunk.css.map",
-    "static/css/main.6c3ada67.chunk.css.map": "/rozha_ui/static/css/main.6c3ada67.chunk.css.map",
-    "static/js/2.e1505f13.chunk.js.LICENSE.txt": "/rozha_ui/static/js/2.e1505f13.chunk.js.LICENSE.txt",
+    "static/css/main.6f2d6243.chunk.css.map": "/rozha_ui/static/css/main.6f2d6243.chunk.css.map",
+    "static/js/2.09c01f5d.chunk.js.LICENSE.txt": "/rozha_ui/static/js/2.09c01f5d.chunk.js.LICENSE.txt",
+    "static/media/42689.png": "/rozha_ui/static/media/42689.32df4590.png",
     "static/media/pe-icon-7-stroke.css": "/rozha_ui/static/media/Pe-icon-7-stroke.c45f7de0.svg",
-    "static/media/bootstrap.min.css": "/rozha_ui/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "static/media/bootstrap.min.css": "/rozha_ui/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/hogrider_bath.jpg": "/rozha_ui/static/media/hogrider_bath.65e2462e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c460a5cc.js",
     "static/css/2.e8d0343d.chunk.css",
-    "static/js/2.e1505f13.chunk.js",
-    "static/css/main.6c3ada67.chunk.css",
-    "static/js/main.28ff7d45.chunk.js"
+    "static/js/2.09c01f5d.chunk.js",
+    "static/css/main.6f2d6243.chunk.css",
+    "static/js/main.cf95fc47.chunk.js"
   ]
 }

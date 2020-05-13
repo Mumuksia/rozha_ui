@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08acc7d7b4c102c573a7523e2e6ffa36",
+    "revision": "c9b27035951b0f8349345d41302081c1",
     "url": "/rozha_ui/index.html"
   },
   {
-    "revision": "ae3e7d46585fb8762338",
+    "revision": "7913fa39f6392d8ece68",
     "url": "/rozha_ui/static/css/2.e8d0343d.chunk.css"
   },
   {
-    "revision": "6fac2b56ef40decd969e",
-    "url": "/rozha_ui/static/css/main.6c3ada67.chunk.css"
+    "revision": "97785f2b3b538b9cf340",
+    "url": "/rozha_ui/static/css/main.6f2d6243.chunk.css"
   },
   {
-    "revision": "ae3e7d46585fb8762338",
-    "url": "/rozha_ui/static/js/2.e1505f13.chunk.js"
+    "revision": "7913fa39f6392d8ece68",
+    "url": "/rozha_ui/static/js/2.09c01f5d.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/rozha_ui/static/js/2.e1505f13.chunk.js.LICENSE.txt"
+    "url": "/rozha_ui/static/js/2.09c01f5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6fac2b56ef40decd969e",
-    "url": "/rozha_ui/static/js/main.28ff7d45.chunk.js"
+    "revision": "97785f2b3b538b9cf340",
+    "url": "/rozha_ui/static/js/main.cf95fc47.chunk.js"
   },
   {
     "revision": "11f706382718cd0a9c06",
     "url": "/rozha_ui/static/js/runtime-main.c460a5cc.js"
+  },
+  {
+    "revision": "32df45906fc22d57b3fbe28e7fa490a3",
+    "url": "/rozha_ui/static/media/42689.32df4590.png"
   },
   {
     "revision": "01798bc13e33afc36a52f2826638d386",
@@ -62,5 +66,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fa2772327f55d8198301fdb8bcfc8158",
     "url": "/rozha_ui/static/media/glyphicons-halflings-regular.fa277232.woff"
+  },
+  {
+    "revision": "65e2462ed6c1de507c25decd16779f00",
+    "url": "/rozha_ui/static/media/hogrider_bath.65e2462e.jpg"
   }
 ]);

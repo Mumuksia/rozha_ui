@@ -3,6 +3,7 @@ import { Container, Row, Col, Table } from "react-bootstrap";
 
 import Card from "./Card.jsx";
 import LeagueWar from "./LeagueWar.jsx";
+import LeagueNotStarted from "./LeagueNotStarted.jsx";
 import { serverURL, clanId, days } from "../variables/variables.jsx";
 
 class LeagueRounds extends Component {
@@ -119,7 +120,7 @@ class LeagueRounds extends Component {
         </Container>
       </div>
     );      
-      } else {return null}
+      } else {return <LeagueNotStarted />}
 
   }
 }

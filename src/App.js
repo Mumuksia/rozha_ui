@@ -6,7 +6,9 @@ import ClanList from "./components/ClanList.jsx";
 import About from "./components/About.jsx";
 import LeagueGroup from "./components/LeagueGroup.jsx";
 import LeagueRounds from "./components/LeagueRounds.jsx";
-//import { Navbar } from "react-bootstrap";
+import ClanWar from "./components/ClanWar.jsx";
+import header from "./assets/imgs/eose_header.png";
+import Header from './components/Header.jsx'
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,28 +19,30 @@ import {
 function App() {
   return (
     <Router>
-      <div>
+
+    <div>
+    
+     <img src={header} class="stretchWidth" />
         <ul id="menu">
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">Про нас</Link>
           </li>
           <li>
-            <Link to="/players">Players</Link>
+            <Link to="/players">Гравці</Link>
           </li>
           <li>
-            <Link to="/war">Clan War</Link>
+            <Link to="/war">Кланова війна</Link>
           </li>
           <li>
-            <Link to="/leaguegroup">Clan League Group</Link>
+            <Link to="/leaguegroup">Група ліги кланів</Link>
           </li>
           <li>
-            <Link to="/leaguerounds">Clan League Rounds</Link>
+            <Link to="/leaguerounds">Раунди ліги кланів</Link>
           </li>
 
         </ul>
 
-        <hr />
-
+ 
         {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
@@ -48,7 +52,10 @@ function App() {
         */}
         <Switch>
           <Route exact path="/">
-            <Home />
+            <About />
+          </Route>
+          <Route exact path="/rozha_ui">
+            <About />
           </Route>
           <Route path="/about">
             <About />
@@ -62,20 +69,13 @@ function App() {
           <Route path="/leaguerounds">
             <LeagueRounds />
           </Route>
+          <Route path="/war">
+            <ClanWar />
+          </Route>
         </Switch>
-      </div>
+   
+</div>
     </Router>
-  );
-}
-
-// You can think of these components as "pages"
-// in your app.
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
   );
 }
 

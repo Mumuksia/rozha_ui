@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 
 import Card from "./Card.jsx";
-import { serverURL, clanLeagueWarTitles } from "../variables/variables.jsx";
+import { serverURL, clanLeagueWarTitles, clanId } from "../variables/variables.jsx";
 
-class LeagueWar extends Component {
+class ClanWar extends Component {
 
   constructor(props) {
     super(props);
@@ -15,9 +15,7 @@ class LeagueWar extends Component {
   }
 
   componentDidMount() {
-    var nwt = this.state.warTag.replace("#", "%23"); 
-    console.log(nwt);
-    const urlW = serverURL +  "/clan/league/war?warTag=" + nwt;
+    const urlW = serverURL +  "/clan/war?clanId=" + clanId;
     console.log(urlW);
     fetch(urlW)
       .then(response => response.json())
@@ -67,14 +65,16 @@ class LeagueWar extends Component {
     if(this.state.leagueWar !== undefined && this.state.leagueWar.clan !== undefined && this.state.leagueWar.clan.members !== undefined) {
 
     let allItemRows = [];
+
       let clanMap = this.state.leagueWar.clan.members;
       clanMap.sort((a,b) => a.mapPosition - b.mapPosition);
 
           clanMap.forEach(item => {
             const perItemRows = this.renderItem(item);
-            allItemRows = allItemRows.concat(perItemRows);
+            allItemRows = allItemRows.concat(perItemRows);            
         });
-
+      
+  
     let allItemOpponentRows = [];
       let oppMap = this.state.leagueWar.opponent.members;
       oppMap.sort((a,b) => a.mapPosition - b.mapPosition);
@@ -140,4 +140,4 @@ class LeagueWar extends Component {
   }
 }
 
-export default LeagueWar;
+export default ClanWar;

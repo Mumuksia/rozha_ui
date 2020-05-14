@@ -2,6 +2,14 @@ import React, {Component} from 'react';
 
 import { serverURL, clanId } from "../variables/variables.jsx";
 import AboutDetails from "./AboutDetails.jsx";
+import Background from "../assets/imgs/hogrider_bath.jpg";
+
+var sectionStyle = {
+  width: "100%",
+  height: "600px",
+  backgroundImage: "url('https://www.championswarleague.com/img/bg_dark.jpg')",
+  backgroundSize: 'cover'  
+};
 
 class About extends Component {
 
@@ -31,9 +39,8 @@ class About extends Component {
    render() {
 
         return (
-      <div className="content">
-        {this.state.clanAbout.clanLevel}
-          <AboutDetails item={this.state.clanAbout} />
+      <div style={sectionStyle} >
+               <AboutDetails item={this.state.clanAbout} />
       </div>
         );
     }

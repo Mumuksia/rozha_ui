@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rozha_ui/static/css/main.a51662c5.chunk.css",
-    "main.js": "/rozha_ui/static/js/main.1faead17.chunk.js",
-    "main.js.map": "/rozha_ui/static/js/main.1faead17.chunk.js.map",
+    "main.js": "/rozha_ui/static/js/main.2dbc0599.chunk.js",
+    "main.js.map": "/rozha_ui/static/js/main.2dbc0599.chunk.js.map",
     "runtime-main.js": "/rozha_ui/static/js/runtime-main.c460a5cc.js",
     "runtime-main.js.map": "/rozha_ui/static/js/runtime-main.c460a5cc.js.map",
     "static/css/2.e8d0343d.chunk.css": "/rozha_ui/static/css/2.e8d0343d.chunk.css",
     "static/js/2.4b8fda4c.chunk.js": "/rozha_ui/static/js/2.4b8fda4c.chunk.js",
     "static/js/2.4b8fda4c.chunk.js.map": "/rozha_ui/static/js/2.4b8fda4c.chunk.js.map",
     "index.html": "/rozha_ui/index.html",
-    "precache-manifest.eb12307f8f1684d3669c261e61b3d395.js": "/rozha_ui/precache-manifest.eb12307f8f1684d3669c261e61b3d395.js",
+    "precache-manifest.54d4d319ac41509c8fd0aa90a2c2d534.js": "/rozha_ui/precache-manifest.54d4d319ac41509c8fd0aa90a2c2d534.js",
     "service-worker.js": "/rozha_ui/service-worker.js",
     "static/css/2.e8d0343d.chunk.css.map": "/rozha_ui/static/css/2.e8d0343d.chunk.css.map",
     "static/css/main.a51662c5.chunk.css.map": "/rozha_ui/static/css/main.a51662c5.chunk.css.map",
@@ -29,6 +29,6 @@
     "static/css/2.e8d0343d.chunk.css",
     "static/js/2.4b8fda4c.chunk.js",
     "static/css/main.a51662c5.chunk.css",
-    "static/js/main.1faead17.chunk.js"
+    "static/js/main.2dbc0599.chunk.js"
   ]
 }

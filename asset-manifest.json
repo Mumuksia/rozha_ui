@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/rozha_ui/static/css/main.6f2d6243.chunk.css",
-    "main.js": "/rozha_ui/static/js/main.13ce5b83.chunk.js",
-    "main.js.map": "/rozha_ui/static/js/main.13ce5b83.chunk.js.map",
+    "main.css": "/rozha_ui/static/css/main.a51662c5.chunk.css",
+    "main.js": "/rozha_ui/static/js/main.1faead17.chunk.js",
+    "main.js.map": "/rozha_ui/static/js/main.1faead17.chunk.js.map",
     "runtime-main.js": "/rozha_ui/static/js/runtime-main.c460a5cc.js",
     "runtime-main.js.map": "/rozha_ui/static/js/runtime-main.c460a5cc.js.map",
     "static/css/2.e8d0343d.chunk.css": "/rozha_ui/static/css/2.e8d0343d.chunk.css",
-    "static/js/2.f4191be3.chunk.js": "/rozha_ui/static/js/2.f4191be3.chunk.js",
-    "static/js/2.f4191be3.chunk.js.map": "/rozha_ui/static/js/2.f4191be3.chunk.js.map",
+    "static/js/2.4b8fda4c.chunk.js": "/rozha_ui/static/js/2.4b8fda4c.chunk.js",
+    "static/js/2.4b8fda4c.chunk.js.map": "/rozha_ui/static/js/2.4b8fda4c.chunk.js.map",
     "index.html": "/rozha_ui/index.html",
-    "precache-manifest.8ca215e4642c66f3bceb612c44dcfad8.js": "/rozha_ui/precache-manifest.8ca215e4642c66f3bceb612c44dcfad8.js",
+    "precache-manifest.eb12307f8f1684d3669c261e61b3d395.js": "/rozha_ui/precache-manifest.eb12307f8f1684d3669c261e61b3d395.js",
     "service-worker.js": "/rozha_ui/service-worker.js",
     "static/css/2.e8d0343d.chunk.css.map": "/rozha_ui/static/css/2.e8d0343d.chunk.css.map",
-    "static/css/main.6f2d6243.chunk.css.map": "/rozha_ui/static/css/main.6f2d6243.chunk.css.map",
-    "static/js/2.f4191be3.chunk.js.LICENSE.txt": "/rozha_ui/static/js/2.f4191be3.chunk.js.LICENSE.txt",
+    "static/css/main.a51662c5.chunk.css.map": "/rozha_ui/static/css/main.a51662c5.chunk.css.map",
+    "static/js/2.4b8fda4c.chunk.js.LICENSE.txt": "/rozha_ui/static/js/2.4b8fda4c.chunk.js.LICENSE.txt",
     "static/media/42689.png": "/rozha_ui/static/media/42689.32df4590.png",
     "static/media/pe-icon-7-stroke.css": "/rozha_ui/static/media/Pe-icon-7-stroke.c45f7de0.svg",
     "static/media/Trundle_1.jpg": "/rozha_ui/static/media/Trundle_1.9a2d840d.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.c460a5cc.js",
     "static/css/2.e8d0343d.chunk.css",
-    "static/js/2.f4191be3.chunk.js",
-    "static/css/main.6f2d6243.chunk.css",
-    "static/js/main.13ce5b83.chunk.js"
+    "static/js/2.4b8fda4c.chunk.js",
+    "static/css/main.a51662c5.chunk.css",
+    "static/js/main.1faead17.chunk.js"
   ]
 }

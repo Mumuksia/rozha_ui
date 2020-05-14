@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d8864cfde833fb1799fa7052bcdbc6a7",
+    "revision": "cb9ae07666e85e7481589149837330c5",
     "url": "/rozha_ui/index.html"
   },
   {
-    "revision": "7913fa39f6392d8ece68",
+    "revision": "aa8dfdb2b224a65eb748",
     "url": "/rozha_ui/static/css/2.e8d0343d.chunk.css"
   },
   {
-    "revision": "99c4c1a192d769e4171e",
+    "revision": "789d2f3e9820ffa23427",
     "url": "/rozha_ui/static/css/main.6f2d6243.chunk.css"
   },
   {
-    "revision": "7913fa39f6392d8ece68",
-    "url": "/rozha_ui/static/js/2.09c01f5d.chunk.js"
+    "revision": "aa8dfdb2b224a65eb748",
+    "url": "/rozha_ui/static/js/2.f4191be3.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/rozha_ui/static/js/2.09c01f5d.chunk.js.LICENSE.txt"
+    "url": "/rozha_ui/static/js/2.f4191be3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99c4c1a192d769e4171e",
-    "url": "/rozha_ui/static/js/main.3ed6c153.chunk.js"
+    "revision": "789d2f3e9820ffa23427",
+    "url": "/rozha_ui/static/js/main.13ce5b83.chunk.js"
   },
   {
     "revision": "11f706382718cd0a9c06",
@@ -48,6 +48,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rozha_ui/static/media/Pe-icon-7-stroke.c45f7de0.svg"
   },
   {
+    "revision": "9a2d840dfc27599e6afd7f6a7b8c90ff",
+    "url": "/rozha_ui/static/media/Trundle_1.9a2d840d.jpg"
+  },
+  {
+    "revision": "7bfee6b5eba0f5e7e012644069ec0c74",
+    "url": "/rozha_ui/static/media/eose_header.7bfee6b5.png"
+  },
+  {
     "revision": "448c34a56d699c29117adc64c43affeb",
     "url": "/rozha_ui/static/media/glyphicons-halflings-regular.448c34a5.woff2"
   },
@@ -70,5 +78,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65e2462ed6c1de507c25decd16779f00",
     "url": "/rozha_ui/static/media/hogrider_bath.65e2462e.jpg"
+  },
+  {
+    "revision": "54b549e96ee07f349cafdd80d7dfcecb",
+    "url": "/rozha_ui/static/media/martyn.54b549e9.jpg"
+  },
+  {
+    "revision": "7fc93130dc060e51411d63ceae99a894",
+    "url": "/rozha_ui/static/media/pixar.7fc93130.jpeg"
+  },
+  {
+    "revision": "5485565b135a17f12e82df1f8c8e852e",
+    "url": "/rozha_ui/static/media/ua-barms.5485565b.gif"
   }
 ]);

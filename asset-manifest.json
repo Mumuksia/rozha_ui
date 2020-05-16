@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/rozha_ui/static/css/main.a51662c5.chunk.css",
-    "main.js": "/rozha_ui/static/js/main.2dbc0599.chunk.js",
-    "main.js.map": "/rozha_ui/static/js/main.2dbc0599.chunk.js.map",
+    "main.js": "/rozha_ui/static/js/main.5fca9a5d.chunk.js",
+    "main.js.map": "/rozha_ui/static/js/main.5fca9a5d.chunk.js.map",
     "runtime-main.js": "/rozha_ui/static/js/runtime-main.c460a5cc.js",
     "runtime-main.js.map": "/rozha_ui/static/js/runtime-main.c460a5cc.js.map",
     "static/css/2.e8d0343d.chunk.css": "/rozha_ui/static/css/2.e8d0343d.chunk.css",
-    "static/js/2.4b8fda4c.chunk.js": "/rozha_ui/static/js/2.4b8fda4c.chunk.js",
-    "static/js/2.4b8fda4c.chunk.js.map": "/rozha_ui/static/js/2.4b8fda4c.chunk.js.map",
+    "static/js/2.4ce11827.chunk.js": "/rozha_ui/static/js/2.4ce11827.chunk.js",
+    "static/js/2.4ce11827.chunk.js.map": "/rozha_ui/static/js/2.4ce11827.chunk.js.map",
     "index.html": "/rozha_ui/index.html",
-    "precache-manifest.54d4d319ac41509c8fd0aa90a2c2d534.js": "/rozha_ui/precache-manifest.54d4d319ac41509c8fd0aa90a2c2d534.js",
+    "precache-manifest.0ee0d2053a29946a2205649212957b28.js": "/rozha_ui/precache-manifest.0ee0d2053a29946a2205649212957b28.js",
     "service-worker.js": "/rozha_ui/service-worker.js",
     "static/css/2.e8d0343d.chunk.css.map": "/rozha_ui/static/css/2.e8d0343d.chunk.css.map",
     "static/css/main.a51662c5.chunk.css.map": "/rozha_ui/static/css/main.a51662c5.chunk.css.map",
-    "static/js/2.4b8fda4c.chunk.js.LICENSE.txt": "/rozha_ui/static/js/2.4b8fda4c.chunk.js.LICENSE.txt",
+    "static/js/2.4ce11827.chunk.js.LICENSE.txt": "/rozha_ui/static/js/2.4ce11827.chunk.js.LICENSE.txt",
     "static/media/42689.png": "/rozha_ui/static/media/42689.32df4590.png",
     "static/media/pe-icon-7-stroke.css": "/rozha_ui/static/media/Pe-icon-7-stroke.c45f7de0.svg",
     "static/media/Trundle_1.jpg": "/rozha_ui/static/media/Trundle_1.9a2d840d.jpg",
+    "static/media/attacks.png": "/rozha_ui/static/media/attacks.c744a606.png",
+    "static/media/destruction.jpeg": "/rozha_ui/static/media/destruction.2c943a47.jpeg",
     "static/media/eose_header.png": "/rozha_ui/static/media/eose_header.7bfee6b5.png",
     "static/media/bootstrap.min.css": "/rozha_ui/static/media/glyphicons-halflings-regular.fa277232.woff",
     "static/media/hogrider_bath.jpg": "/rozha_ui/static/media/hogrider_bath.65e2462e.jpg",
@@ -27,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.c460a5cc.js",
     "static/css/2.e8d0343d.chunk.css",
-    "static/js/2.4b8fda4c.chunk.js",
+    "static/js/2.4ce11827.chunk.js",
     "static/css/main.a51662c5.chunk.css",
-    "static/js/main.2dbc0599.chunk.js"
+    "static/js/main.5fca9a5d.chunk.js"
   ]
 }

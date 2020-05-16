@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77e96d0eef55728ecbb57895fff14358",
+    "revision": "9332ea67e065620d8ff9eb73e8a67249",
     "url": "/rozha_ui/index.html"
   },
   {
-    "revision": "ce5634c67dc4e2ccc774",
+    "revision": "b4361b2ed3bc97f9ddf7",
     "url": "/rozha_ui/static/css/2.e8d0343d.chunk.css"
   },
   {
-    "revision": "cf097ad3b530547c7460",
+    "revision": "164655cc799d8f561f08",
     "url": "/rozha_ui/static/css/main.a51662c5.chunk.css"
   },
   {
-    "revision": "ce5634c67dc4e2ccc774",
-    "url": "/rozha_ui/static/js/2.4b8fda4c.chunk.js"
+    "revision": "b4361b2ed3bc97f9ddf7",
+    "url": "/rozha_ui/static/js/2.4ce11827.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/rozha_ui/static/js/2.4b8fda4c.chunk.js.LICENSE.txt"
+    "url": "/rozha_ui/static/js/2.4ce11827.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf097ad3b530547c7460",
-    "url": "/rozha_ui/static/js/main.2dbc0599.chunk.js"
+    "revision": "164655cc799d8f561f08",
+    "url": "/rozha_ui/static/js/main.5fca9a5d.chunk.js"
   },
   {
     "revision": "11f706382718cd0a9c06",
@@ -50,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a2d840dfc27599e6afd7f6a7b8c90ff",
     "url": "/rozha_ui/static/media/Trundle_1.9a2d840d.jpg"
+  },
+  {
+    "revision": "c744a60643f994dcefb945ecd6ca59bf",
+    "url": "/rozha_ui/static/media/attacks.c744a606.png"
+  },
+  {
+    "revision": "2c943a47312d30c84ae4524788c91ae3",
+    "url": "/rozha_ui/static/media/destruction.2c943a47.jpeg"
   },
   {
     "revision": "7bfee6b5eba0f5e7e012644069ec0c74",

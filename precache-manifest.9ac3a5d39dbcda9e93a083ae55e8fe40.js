@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9332ea67e065620d8ff9eb73e8a67249",
+    "revision": "67373adc3b6df2138eb509c36bbe3ba5",
     "url": "/rozha_ui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rozha_ui/static/css/2.e8d0343d.chunk.css"
   },
   {
-    "revision": "164655cc799d8f561f08",
+    "revision": "0cd664af1c0a19238ed8",
     "url": "/rozha_ui/static/css/main.a51662c5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rozha_ui/static/js/2.4ce11827.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "164655cc799d8f561f08",
-    "url": "/rozha_ui/static/js/main.5fca9a5d.chunk.js"
+    "revision": "0cd664af1c0a19238ed8",
+    "url": "/rozha_ui/static/js/main.9c58f2c2.chunk.js"
   },
   {
     "revision": "11f706382718cd0a9c06",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rozha_ui/static/media/martyn.54b549e9.jpg"
   },
   {
-    "revision": "7fc93130dc060e51411d63ceae99a894",
-    "url": "/rozha_ui/static/media/pixar.7fc93130.jpeg"
+    "revision": "54e6a19943c31c5fad2c9d474751a3f2",
+    "url": "/rozha_ui/static/media/pixar.54e6a199.png"
   },
   {
     "revision": "5485565b135a17f12e82df1f8c8e852e",

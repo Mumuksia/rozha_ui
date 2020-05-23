@@ -3,6 +3,9 @@ import { Container, Row, Col, Table } from "react-bootstrap";
 
 import Card from "./Card.jsx";
 import { serverURL, clanLeagueWarTitles, clanId } from "../variables/variables.jsx";
+import stars from "../assets/imgs/stars.jpeg";
+import destruction from "../assets/imgs/destruction.jpeg";
+import attacksimg from "../assets/imgs/attacks.png";
 
 class ClanWar extends Component {
 
@@ -49,7 +52,8 @@ class ClanWar extends Component {
      ];
 
     if (this.state.expandedRow === item.tag) {
-      const listItems = item.attacks.map((d) => <li key={d.attackerTag}><b>Stars {d.stars}</b>  {d.destructionPercentage} <b>Opponent: {d.defenderTag}</b></li>);
+      const listItems = item.attacks.map((d) => <li key={d.attackerTag}><b><img src={stars} height="20px" width="20px" /> {d.stars}</b>  
+ &emsp; <img src={destruction} height="20px" width="20px" /> {d.destructionPercentage} <b>Opponent: {d.defenderTag}</b></li>);
       itemRows.push(
         <div>
           {listItems}
@@ -87,15 +91,33 @@ class ClanWar extends Component {
     
     return (
       <div className="content">
-        <Container fluid>
-          <Row>
-            <Col md={12}>
-              <Card
-                title={this.state.leagueWar.clan.stars + "    stars Versus     " + this.state.leagueWar.opponent.stars}
-                category={this.state.leagueWar.clan.attacks + "    attacks Versus     " + this.state.leagueWar.opponent.attacks}
-                ctTableFullWidth
-                ctTableResponsive
-                content={
+
+                <div className="container">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12" id="maincontent">
+                      <h2>{this.state.leagueWar.clan.name}</h2>
+                      <div class="row">
+                      <img src={attacksimg} height="50px" width="50px" />
+                      {this.state.leagueWar.clan.attacks} &emsp;
+                      <img src={stars} height="50px" width="50px" />
+                      {this.state.leagueWar.clan.stars} &emsp;
+                      <img src={destruction} height="50px" width="50px" />
+                      {this.state.leagueWar.clan.destructionPercentage}
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12" id="maincontent">
+                      <h2>{this.state.leagueWar.opponent.name}</h2>
+                      <div class="row">
+                      <img src={attacksimg} height="50px" width="50px" />
+                      {this.state.leagueWar.opponent.attacks} &emsp;
+                      <img src={stars} height="50px" width="50px" />
+                      {this.state.leagueWar.opponent.stars} &emsp;
+                      <img src={destruction} height="50px" width="50px" />
+                      {this.state.leagueWar.opponent.destructionPercentage}
+                      </div>
+                    </div>
+                  </div>
+                </div>
                   <div id="wrap">
                    <div className="container">
                    <Table striped hover>
@@ -125,13 +147,8 @@ class ClanWar extends Component {
                     </tbody>
                   </Table>
                     </div>
-                    </div>
-                }
-              />
-            </Col>
-          </Row>
-        </Container>
-      </div>
+                    </div>               
+                  </div>
     );      
     } else {
       return null

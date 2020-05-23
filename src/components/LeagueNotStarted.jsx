@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Table } from "react-bootstrap";
 
-import notfound from "../assets/imgs/pixar.jpeg";
+import notfound from "../assets/imgs/pixar.png";
 
 class LeagueNotStarted extends Component {
 

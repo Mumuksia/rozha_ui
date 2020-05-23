@@ -67,10 +67,10 @@ class AboutDetails extends Component {
                     <div id="sidebar" class="col-lg-3 col-md-3 col-sm-12">
                       <h3>Контактні особи</h3>
                       	<Table>
-                          <tr><td> Highlander</td><td><img src={highlander} width="50px" height="50px"/></td></tr>
-                          <tr><td> Jareky</td><td><img src={jareky} width="50px" height="50px"/></td></tr>
-                          <tr><td> pavlo-killer2</td><td><img src={martyn} width="50px" height="50px"/></td></tr>
-                          <tr><td> Muksia</td><td><img src={trundle} width="50px" height="50px"/></td></tr>
+                          <tr><td><b> Highlander</b></td><td><img src={highlander} width="80px" height="80px"/></td></tr>
+                          <tr><td><b> Jareky</b></td><td><img src={jareky} width="80px" height="80px"/></td></tr>
+                          <tr><td><b> pavlo-killer2</b></td><td><img src={martyn} width="80px" height="80px"/></td></tr>
+                          <tr><td><b> Muksia</b></td><td><img src={trundle} width="80px" height="80px"/></td></tr>
 	                </Table>
                         </div>
                   </div>

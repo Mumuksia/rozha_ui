@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67373adc3b6df2138eb509c36bbe3ba5",
+    "revision": "a9f804e06f03b6ae51d8e88d32ea74e6",
     "url": "/rozha_ui/index.html"
   },
   {
-    "revision": "b4361b2ed3bc97f9ddf7",
+    "revision": "f64252afc46bc3ba868e",
     "url": "/rozha_ui/static/css/2.e8d0343d.chunk.css"
   },
   {
-    "revision": "0cd664af1c0a19238ed8",
-    "url": "/rozha_ui/static/css/main.a51662c5.chunk.css"
+    "revision": "57fe08cba5f852c751d5",
+    "url": "/rozha_ui/static/css/main.337d95e8.chunk.css"
   },
   {
-    "revision": "b4361b2ed3bc97f9ddf7",
-    "url": "/rozha_ui/static/js/2.4ce11827.chunk.js"
+    "revision": "f64252afc46bc3ba868e",
+    "url": "/rozha_ui/static/js/2.2b1673c3.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/rozha_ui/static/js/2.4ce11827.chunk.js.LICENSE.txt"
+    "url": "/rozha_ui/static/js/2.2b1673c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0cd664af1c0a19238ed8",
-    "url": "/rozha_ui/static/js/main.9c58f2c2.chunk.js"
+    "revision": "57fe08cba5f852c751d5",
+    "url": "/rozha_ui/static/js/main.fe295c14.chunk.js"
   },
   {
     "revision": "11f706382718cd0a9c06",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rozha_ui/static/media/Pe-icon-7-stroke.b38ef310.woff"
   },
   {
-    "revision": "c45f7de008ab976a8e817e3c0e5095ca",
-    "url": "/rozha_ui/static/media/Pe-icon-7-stroke.c45f7de0.svg"
+    "revision": "dedf26989fdd78c33cb9ae664a604d6c",
+    "url": "/rozha_ui/static/media/Pe-icon-7-stroke.dedf2698.svg"
   },
   {
     "revision": "9a2d840dfc27599e6afd7f6a7b8c90ff",

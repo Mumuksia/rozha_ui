@@ -6,6 +6,8 @@ import ClanList from "./components/ClanList.jsx";
 import About from "./components/About.jsx";
 import LeagueGroup from "./components/LeagueGroup.jsx";
 import LeagueRounds from "./components/LeagueRounds.jsx";
+import LeagueGroupA from "./components/LeagueGroupA.jsx";
+import LeagueRoundsA from "./components/LeagueRoundsA.jsx";
 import ClanWar from "./components/ClanWar.jsx";
 import header from "./assets/imgs/eose_header.png";
 import Header from './components/Header.jsx'
@@ -39,7 +41,12 @@ function App() {
           <li>
             <Link to="/leaguerounds">Раунди ліги кланів</Link>
           </li>
-
+          <li>
+            <Link to="/leaguegroupacademy">Група ліги кланів академія</Link>
+          </li>
+          <li>
+            <Link to="/leagueroundsacademy">Раунди ліги кланів академія</Link>
+          </li>
         </ul>
 
  
@@ -69,6 +76,12 @@ function App() {
           <Route path="/leaguerounds">
             <LeagueRounds />
           </Route>
+                    <Route path="/leaguegroupacademy">
+                      <LeagueGroup />
+                    </Route>
+                    <Route path="/leagueroundsacademy">
+                      <LeagueRounds />
+                    </Route>
           <Route path="/war">
             <ClanWar />
           </Route>

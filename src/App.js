@@ -9,6 +9,7 @@ import LeagueRounds from "./components/LeagueRounds.jsx";
 import LeagueGroupA from "./components/LeagueGroupA.jsx";
 import LeagueRoundsA from "./components/LeagueRoundsA.jsx";
 import ClanWar from "./components/ClanWar.jsx";
+import Tutorials from "./components/Tutorials.jsx";
 import header from "./assets/imgs/eose_header.png";
 import Header from './components/Header.jsx'
 import {
@@ -47,6 +48,10 @@ function App() {
           <li>
             <Link to="/leagueroundsacademy">Раунди ліги кланів академія</Link>
           </li>
+          <li>
+            <Link to="/tutorials">Відео для новачків</Link>
+          </li>
+
         </ul>
 
  
@@ -85,6 +90,10 @@ function App() {
           <Route path="/war">
             <ClanWar />
           </Route>
+          <Route path="/tutorials">
+             <Tutorials />
+          </Route>
+
         </Switch>
    
 </div>

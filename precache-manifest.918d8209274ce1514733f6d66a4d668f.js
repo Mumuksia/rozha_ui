@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c65e84eefddd81ab9a073a4c5f8d45e8",
+    "revision": "78f4f77eb9cea41d1983fdc12b893ca4",
     "url": "/rozha_ui/index.html"
   },
   {
-    "revision": "c61eb604bcde2ac60ae1",
+    "revision": "f9f7614d538535acfef8",
     "url": "/rozha_ui/static/css/2.e8d0343d.chunk.css"
   },
   {
-    "revision": "45d5d2e17f14785446ca",
+    "revision": "30047fd0f59b4c36c251",
     "url": "/rozha_ui/static/css/main.337d95e8.chunk.css"
   },
   {
-    "revision": "c61eb604bcde2ac60ae1",
-    "url": "/rozha_ui/static/js/2.09aab7ae.chunk.js"
+    "revision": "f9f7614d538535acfef8",
+    "url": "/rozha_ui/static/js/2.140c24ae.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/rozha_ui/static/js/2.09aab7ae.chunk.js.LICENSE.txt"
+    "url": "/rozha_ui/static/js/2.140c24ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45d5d2e17f14785446ca",
-    "url": "/rozha_ui/static/js/main.3220f632.chunk.js"
+    "revision": "30047fd0f59b4c36c251",
+    "url": "/rozha_ui/static/js/main.42f5c6b5.chunk.js"
   },
   {
     "revision": "11f706382718cd0a9c06",

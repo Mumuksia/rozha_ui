@@ -1,5 +1,5 @@
 var clanId = "%2398URYYCP";
-var clanAcademyId = "%232Y8QY09C";
+var clanAcademyId = "%232Y8QPY09C";
 var clanIdEsc = "#98URYYCP";
 var serverURL = "https://cors-anywhere.herokuapp.com/http://132.145.254.115:8080";
 

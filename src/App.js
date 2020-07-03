@@ -77,10 +77,10 @@ function App() {
             <LeagueRounds />
           </Route>
                     <Route path="/leaguegroupacademy">
-                      <LeagueGroup />
+                      <LeagueGroupA />
                     </Route>
                     <Route path="/leagueroundsacademy">
-                      <LeagueRounds />
+                      <LeagueRoundsA />
                     </Route>
           <Route path="/war">
             <ClanWar />
